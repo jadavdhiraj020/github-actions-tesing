@@ -19,7 +19,7 @@ jobs:
 
       - name: Print env
         env:
-          MESSAGE: Hello World.com
+          MESSAGE: Hello World so nice..
         run: echo $MESSAGE
 
 
