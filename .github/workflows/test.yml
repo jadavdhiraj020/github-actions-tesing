@@ -3,7 +3,7 @@ name: Hello World
 on: [push]
 
 jobs:
-  run-shell-command:
+  demo:
     runs-on: windows-latest
 
     steps:
