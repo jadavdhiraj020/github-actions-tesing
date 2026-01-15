@@ -1,0 +1,9 @@
+name: hello world
+on: [push]
+jobs:
+  run-shell-command:
+    runs-on: window-latest
+    steps:
+      - name: print hello world
+        run: echo "HELLO WORLD!"
+      
